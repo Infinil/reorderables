@@ -860,6 +860,7 @@ class _ReorderableWrapContentState extends State<_ReorderableWrapContent>
                 maxSimultaneousDrags: 1,
                 data: index,
                 //toWrap.key,
+                affinity: Axis.horizontal,
                 ignoringFeedbackSemantics: false,
                 feedback: feedbackBuilder,
                 child: MetaData(
